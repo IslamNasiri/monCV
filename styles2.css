@@ -1,10 +1,10 @@
 
 *{
 font-family: Avenir, sans-serif;
-padding: 0px;
-margin: 0px;
+padding: 5px;
+margin: 5px;
 text-align: justify;
-box-sizing: border-box;
+box-sizing: border ;
 }
 body{
 background: #ededed;
@@ -22,10 +22,10 @@ header, footer{
 width: 100%;
 padding: 20px 0px;
 background: url("https://img.freepik.com/photos-premium/fond-texture-mur-abstrait-grunge-vert_130147-6057.jpg?size=626&ext=jpg&ga=GA1.1.271448420.1700038383&semt=ais") #4f4f4f;
-box-shadow: 0px 0px 15px #333;
+box-shadow: 0px 0px 15px #ff0000;
 }
 header{
-border-bottom: 2px solid #fff;
+border-bottom: 2px solid #ff0000;
 height: 120px;
 }
 header h1{
@@ -36,7 +36,7 @@ margin: 0 auto;
 }
 
 footer{
-border-top: 2px solid #fff;
+border-top: 2px solid #ff0000;
 }
 footer p{
 width: 90%;
@@ -56,8 +56,8 @@ justify-content: center;
 width: 100%;
 padding-bottom: 20px;
 margin: 20px auto;
-box-shadow: 0px 0px 10px #bbb;
-background-color: #fff;
+box-shadow: 0px 0px 10px #ff0000;
+background-color: #ffffff;
 }
 a
 section h2{
@@ -69,7 +69,8 @@ width: 90%;
 }
 
 .photo{
-text-align: center;
+text-align: bottom-left;
+border: 12px;
 }
 .photo img{
 width: 150px;
@@ -169,6 +170,7 @@ border-bottom-left-radius: 5px;
 .c85{
 width: 85%;
 background-color: #8B8;
+
 }
 .c90{
 width: 90%;
@@ -177,6 +179,7 @@ background-color: #4B8;
 .c95{
 width: 95%;
 background-color: #4B8;
+
 }
 .c100{
 width: 100%;
